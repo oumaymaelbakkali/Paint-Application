@@ -95,18 +95,35 @@ When the user click on this action ,he will show a small dialog where he can cho
   When the user click on this action ,he will show a small dialog where he can choose when he want save his image as a png format.</br>
 ### Clear All Action
 ```cpp
+ void PaintAPP::on_actionClear_All_triggered()
+  {
+     Image->fill(Qt::white);
+     update();
+ }
    
 ```
+for clear the content we fill the image with the original color ;white.
 ### AboutQt Action
 ```cpp
+   void PaintAPP::on_actionAbout_Qt_triggered()
+  {
+
+  QMessageBox ::aboutQt(this,"about QT");
+  }
    
 ```
+we use a message box for display informations about Qt
 ### Go Action
 ```cpp
+void PaintAPP::on_actionGo_triggered()
+{
+    close();
+}
    
 ```
+for close the application we use the methode close()
 ## Conclusion
-this application is a very basic application every one can do it ,i am sorry because i couldn't  create more options as we see in class QPainter and more Actions .
+this application is a very basic application every one can do it ,i am sorry because i couldn't  create more options as we saw in class QPainter and more Actions .
 
 
 
