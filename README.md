@@ -1,4 +1,5 @@
 # Paint-Application
+### realized by Oumayma EL Bakkali
 ------------------------------------------------------------------
 ## Introduction
 A Paint Application is a Main window application where you can draw with your mouse what you want with specification of size and color of Pen ,you can also clear all the content of image or  a part with white color,finally you can save the image as format png ,or close the application.</br>
